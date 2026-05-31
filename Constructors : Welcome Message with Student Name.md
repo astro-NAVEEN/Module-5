@@ -12,8 +12,25 @@ To write a Python program that creates a **Student** class with a **default cons
 
 ## 🧾 Program
 
-Add code here
+# Constructors in Python: Welcome Message with Student Name
+
+class Student:
+
+    def __init__(self, name):
+        self.a = name
+
+    def show(self):
+        print("This is non-parameterized constructor")
+        print("Welcome", self.a)
+
+name = input("Enter student name: ")
+
+s1 = Student(name)
+s1.show()
 
 ## Output
+<img width="623" height="366" alt="Screenshot 2026-05-31 113207" src="https://github.com/user-attachments/assets/27887f06-63a4-4786-bf5d-7d795bc3fa0f" />
+
 
 ## Result
+Thus, the Python program using a class with a constructor to display a welcome message along with the student’s name was written and executed successfully.
